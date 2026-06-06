@@ -14,7 +14,7 @@ def play_game():
             guess = int(input("Enter your guess: "))
             attempts += 1
             
-            # Check proximity after use guess
+            # Check proximity 
             if guess < secret_number:
                 print("Too low! Try again.")
             elif guess > secret_number:
